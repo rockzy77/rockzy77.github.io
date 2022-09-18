@@ -1,0 +1,391 @@
+* {
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+  user-select: none;
+}
+
+body{
+  overflow: overlay;
+}
+
+/* NavBar */
+
+.navbar{
+  padding: 0 15px;
+  transition: 0.2s ease-in-out;
+}
+
+.nav-moved{
+  background-color: black;
+}
+
+
+.nav-item{
+  margin: 0 10px;
+}
+
+.nav-link{
+  font-size: 0.9rem;
+}
+
+.navbar-toggler{
+  border: none;
+}
+
+
+.navbar-toggler:focus{
+  outline: none;
+  box-shadow: none;
+}
+
+
+/* Right Box */
+
+.right-cont{
+  width: 60px;
+  position: fixed;
+  float: right;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.social-cont{
+  /* background-color: black; */
+  /* box-shadow: 0 0 8px rgba(0, 0, 0, 0.63); */
+  height: 80%;
+  border-radius: 15px;
+  width: 80%;
+}
+
+.social-boxs{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.social-box{
+  width: 100%;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 10px 0;
+}
+
+.social-box a{
+  color: #8f8f8f;
+  transition: 0.2s ease-in-out;
+}
+
+.social-box a:hover{
+  color: #a764d3;
+  position: relative;
+  right: 2px;
+}
+
+
+.kpadding{
+  padding: 45px !important;
+}
+
+/* Header */
+
+header{
+  min-height: 100vh;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.815), rgba(0, 0, 0, 0.856)), url(./images/bg.jpg);
+  background-position: center;
+  background-size: cover;
+  /* background-color: black; */
+  position: relative;
+}
+
+.center-box{
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  text-align: left;
+  color: white;
+  transform: translate(-50%,-50%);
+  padding: 0 8%;
+}
+
+.center-box p{
+  font-size: 1rem;
+  margin-bottom: 15px;
+  color: #8f8f8f;
+}
+
+
+.center-box h1{
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 15px;
+  margin: 0;
+}
+
+.center-box span{
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #8f8f8f;
+}
+
+.head-p{
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #8f8f8f;
+  width: 650px;
+}
+
+.highlight{
+  color: #a764d3 !important;
+  font-weight: 700 !important;
+}
+
+.about-me-btn{
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: 1px solid #a764d3;
+  border-radius: 5px;
+  color: #a764d3;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: 0.2s ease-in-out;
+}
+
+.about-me-btn:hover{
+  color: #fff !important;
+  background-color: #a764d3 !important;
+}
+
+
+/* About Section */
+
+#about{
+  min-height: 100vh;
+  padding: 5% 8%;
+  background-color: black;
+}
+
+
+.about-img{
+  width: 250px;
+  border: 3px solid #a764d3;
+  border-radius: 15px 0 15px 0;
+}
+
+#about h1{
+  font-size: 1.5rem;
+  font-weight: 900;
+  margin-bottom: 15px;
+  color: #fff;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+
+#about p{
+  color: #8f8f8f;
+  font-size: 1.05rem;
+  font-weight: 500;
+}
+
+
+/* Technologies */
+
+.skill-box{
+  border-left: 1px solid #a764d3;
+}
+
+.skill-box ul li{
+  font-weight: 700;
+  color: #a764d3;
+}
+
+.skill-box span{
+  color: #8f8f8f;
+  font-weight: 500;
+}
+
+/* Education */
+
+.edu-row{
+  text-align: center;
+}
+
+.edu-col{
+  padding: 15px
+}
+
+.edu-col p{
+  margin-top: 15px;
+  color: #a764d3 !important;
+  font-weight: 700 !important;
+}
+
+.edu-col span{
+  color: #8f8f8f;
+  font-weight: 500;
+}
+
+.edu-row img{
+  width: 125px;
+  height: 120px;
+}
+
+/* Work */
+
+.work-card{
+  border: 2px solid #a764d3;
+  padding: 15px;
+}
+
+.work-card h3{
+  color: #a764d3;
+  font-weight: 700;
+}
+
+.work-card span{
+  color: #8f8f8f;
+  font-weight: 400;
+  font-size: 0.8rem;
+}
+
+.work-card p{
+  color: #8f8f8f;
+  font-weight: 500;
+  margin-top: 15px !important;
+}
+
+
+
+/* PortFolio */
+
+
+#portfolio{
+  min-height: 100vh;
+  padding: 5% 8%;
+  background-color: rgb(20, 20, 20);
+}
+
+#portfolio h1{
+  font-size: 2rem;
+  color: #8f8f8f;
+  font-weight: 900;
+  
+  margin-bottom: 15px;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+#portfolio span{
+  color: #a0a0a0;
+  text-decoration: underline;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.port-row{
+  padding: 15px;
+  grid-gap: 20px;
+  justify-content: space-between;
+}
+
+
+
+.portf-box{
+  width: 350px;
+  padding: 15px;
+  background-color: #a764d3;
+  border-radius: 5px;
+  box-shadow: 0  0 8px rgba(0, 0, 0, 0.63);
+}
+
+.portf-box h3{
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.portf-box span{
+  color: #c9c9c9 !important;
+  font-weight: 500 !important;
+  font-size: 1rem !important;
+  text-decoration: none !important;
+}
+
+.port-link{
+  color: rgb(37, 37, 37) !important;
+  font-weight: 500 !important;
+  font-size: 1.2rem !important;
+  text-decoration: none !important;
+}
+
+/* Media Query */
+
+
+@media screen and (max-width: 991px) {
+  .edu-col{
+    text-align: left;
+  }
+}
+  
+
+@media screen and (max-width: 768px){
+  .header-row{
+    flex-direction: column;
+  }
+  .left-cont{
+    width: 100%;
+  }
+  .right-cont{
+    display: none;
+  }
+
+  .center-box{
+    text-align: left;
+    padding: 0 15px;
+  }
+
+  .about-img{
+    border-radius: 0;
+  }
+}
+
+
+@media screen and (max-width: 691px) {
+  .head-p{
+    width: 100%;
+  }
+}
+
+
+
+/* Scroll Bar */
+
+/* Customize website's scrollbar like Mac OS
+Not supports in Firefox and IE */
+
+/* total width */
+body::-webkit-scrollbar {
+  /* background-color: black; */
+  width: 5px;
+}
+
+/* background of the scrollbar except button or resizer */
+body::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+/* scrollbar itself */
+body::-webkit-scrollbar-thumb {
+  background-color: #babac0;
+  border-radius: 16px;
+}
+
+/* set button(top and bottom of the scrollbar) */
+body::-webkit-scrollbar-button {
+  display:none;
+}
