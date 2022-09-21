@@ -458,6 +458,16 @@ header{
 }
 
 
+/* footer */
+
+footer{
+  width: 100%;
+  text-align: center;
+  background-color: rgb(19, 19, 19);
+  color: white;
+  padding: 2% 3%;
+}
+
 /* Media Query */
 
 
