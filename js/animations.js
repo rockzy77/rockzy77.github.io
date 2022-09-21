@@ -32,3 +32,10 @@ $(document).ready(function () {
     }
   });
 });
+
+
+function toggle(){
+  if(window.scrollY == 0){
+    document.getElementsByTagName("nav")[0].classList.toggle("nav-moved");
+  }
+}
