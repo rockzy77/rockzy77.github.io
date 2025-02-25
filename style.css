@@ -228,12 +228,11 @@ header{
 
 /* Education */
 
-.edu-row{
-  text-align: center;
-}
+
 
 .edu-col{
-  padding: 15px
+  padding: 15px;
+  border-bottom: 2px solid #a764d3;
 }
 
 .edu-col p{
