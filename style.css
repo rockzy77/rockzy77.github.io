@@ -228,7 +228,9 @@ header{
 
 /* Education */
 
-
+.edu-row{
+  text-align: left;
+}
 
 .edu-col{
   padding: 15px;
