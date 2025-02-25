@@ -255,13 +255,29 @@ header{
 /* Work */
 
 .work-card{
-  border: 2px solid #a764d3;
+  border-bottom: 2px solid #a764d3;
   padding: 15px;
 }
 
 .work-card h3{
   color: #a764d3;
   font-weight: 700;
+  font-size: 20px;
+}
+
+.wkc{
+  margin-top: 20px;
+}
+
+.work-card ul{
+  margin: 0;
+  margin-top: 10px;
+  padding: 0;
+  padding-left: 20px;
+}
+
+.work-card ul li{
+  color: #8f8f8f;
 }
 
 .work-card span{
@@ -282,7 +298,7 @@ header{
 
 
 #portfolio{
-  min-height: 100vh;
+  /* min-height: 100vh; */
   padding: 5% 8%;
   background-color: rgb(20, 20, 20);
 }
@@ -310,6 +326,10 @@ header{
   justify-content: start;
 }
 
+
+hr{
+  color: #a764d3;
+}
 
 
 .portf-box{
@@ -345,8 +365,7 @@ header{
 /* Certificates */
 
 #certificates{
-  min-height: 100vh;
-  padding: 5% 8%;
+  padding: 0% 8%;
   background-color: rgb(20, 20, 20);
 }
 
